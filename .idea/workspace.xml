@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b887c96-d69b-4501-bff7-6b1accbe81da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html_public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html_public/index.html" afterDir="false" />
     </list>
@@ -26,6 +25,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="CodeDevelium" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="test_app" />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -88,7 +92,7 @@
       <updated>1592654287712</updated>
       <workItem from="1592654288916" duration="1010000" />
       <workItem from="1592662186011" duration="260000" />
-      <workItem from="1592662468266" duration="1045000" />
+      <workItem from="1592662468266" duration="1121000" />
     </task>
     <task id="LOCAL-00001" summary="Primer commit">
       <created>1592663107745</created>
@@ -97,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592663107745</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Primer commit">
+      <created>1592663519362</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592663519362</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,14 +122,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="Primer commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="508" y="38" key="CommitChangelistDialog2" timestamp="1592663105036">
+    <state x="508" y="38" key="CommitChangelistDialog2" timestamp="1592663518522">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="508" y="38" key="CommitChangelistDialog2/0.0.1920.1040/1920.-3.1920.1040@0.0.1920.1040" timestamp="1592663105036" />
+    <state x="508" y="38" key="CommitChangelistDialog2/0.0.1920.1040/1920.-3.1920.1040@0.0.1920.1040" timestamp="1592663518522" />
     <state x="690" y="196" key="FileChooserDialogImpl" timestamp="1592663023937">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="196" key="FileChooserDialogImpl/0.0.1920.1040/1920.-3.1920.1040@0.0.1920.1040" timestamp="1592663023937" />
+    <state x="707" y="361" key="Github.CreatePullRequestDialog" timestamp="1592663536177">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="707" y="361" key="Github.CreatePullRequestDialog/0.0.1920.1040/1920.-3.1920.1040@0.0.1920.1040" timestamp="1592663536177" />
     <state x="817" y="385" width="310" height="269" key="Github.ShareDialog" timestamp="1592663151434">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -127,5 +142,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="243" y="19" key="SettingsEditor/0.0.1920.1040/1920.-3.1920.1040@0.0.1920.1040" timestamp="1592663012726" />
+    <state x="452" y="183" key="Vcs.Push.Dialog.v2" timestamp="1592663575344">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="452" y="183" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-3.1920.1040@0.0.1920.1040" timestamp="1592663575344" />
   </component>
 </project>
