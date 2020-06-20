@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b887c96-d69b-4501-bff7-6b1accbe81da" name="Default Changelist" comment="" />
+    <list default="true" id="8b887c96-d69b-4501-bff7-6b1accbe81da" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html_public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html_public/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,6 +52,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -83,8 +88,16 @@
       <updated>1592654287712</updated>
       <workItem from="1592654288916" duration="1010000" />
       <workItem from="1592662186011" duration="260000" />
-      <workItem from="1592662468266" duration="545000" />
+      <workItem from="1592662468266" duration="1045000" />
     </task>
+    <task id="LOCAL-00001" summary="Primer commit">
+      <created>1592663107745</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592663107745</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,16 +107,22 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="Primer commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Primer commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="508" y="38" key="CommitChangelistDialog2" timestamp="1592663079291">
+    <state x="508" y="38" key="CommitChangelistDialog2" timestamp="1592663105036">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="508" y="38" key="CommitChangelistDialog2/0.0.1920.1040/1920.-3.1920.1040@0.0.1920.1040" timestamp="1592663079291" />
+    <state x="508" y="38" key="CommitChangelistDialog2/0.0.1920.1040/1920.-3.1920.1040@0.0.1920.1040" timestamp="1592663105036" />
     <state x="690" y="196" key="FileChooserDialogImpl" timestamp="1592663023937">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="196" key="FileChooserDialogImpl/0.0.1920.1040/1920.-3.1920.1040@0.0.1920.1040" timestamp="1592663023937" />
+    <state x="817" y="385" width="310" height="269" key="Github.ShareDialog" timestamp="1592663151434">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="817" y="385" width="310" height="269" key="Github.ShareDialog/0.0.1920.1040/1920.-3.1920.1040@0.0.1920.1040" timestamp="1592663151434" />
     <state x="243" y="19" key="SettingsEditor" timestamp="1592663012726">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
