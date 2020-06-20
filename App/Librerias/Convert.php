@@ -1,6 +1,7 @@
 <?php
 /**
  * Convert.php
+ *
  * @version     1.0
  * @author      Code Develium
  */
@@ -10,10 +11,31 @@ namespace App\Librerias;
 /**
  * Conversiones de formatos
  * Class Convert
+ *
  * @package App\Librerias
  */
 abstract class Convert
 {
+
+    /**
+     * Convierte un elemento a un array
+     *
+     * @param $element
+     *
+     * @return array
+     */
+    public static function to_array($element): array
+    {
+        if (is_array($element)) {
+            return $element;
+        } elseif (Valid::is_empty($element)) {
+            return [];
+        } elseif (is_object($element)) {
+            return ( array )$element;
+        } else {
+            return array($element);
+        }
+    }
 
     /**
      * Transforma un string SI/NO-YES/NO-Y/S-S/N-1/0 a bool.
@@ -62,6 +84,25 @@ abstract class Convert
                 }
             }
         }
+
         return $ret;
+    }
+
+    /**
+     * Devuelve un texto sin especiales HTML y sustitutyendo los CRLF por <br />
+     * Si es blanco o null devuelve '&nbsp;'
+     *
+     * @param $txt
+     *
+     * @return string
+     * @see validar_is_empty()
+     */
+    function convert_to_html($txt)
+    {
+        if (Valid::is_empty($txt)) {
+            return '&nbsp;';
+        }
+
+        return nl2br(htmlspecialchars($txt));
     }
 }

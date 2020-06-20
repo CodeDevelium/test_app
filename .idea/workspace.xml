@@ -2,18 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b887c96-d69b-4501-bff7-6b1accbe81da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/App.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Controladores/HomeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Librerias/Convert.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Librerias/Get.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Librerias/Valid.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html_public/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html_public/scripts/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html_public/scripts/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/Librerias/Archivo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/Librerias/Arrays.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/Librerias/Date.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/Librerias/Datetime.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/Librerias/Dispositivo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/Librerias/Encriptador.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/Librerias/Imagen.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/Librerias/Log.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/Librerias/Mysql.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/Librerias/Number.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/Librerias/Post.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/Librerias/Server.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/Librerias/Session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/Librerias/Str.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html_public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html_public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Librerias/Convert.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Librerias/Convert.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Librerias/Valid.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Librerias/Valid.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +127,7 @@
       <updated>1592654287712</updated>
       <workItem from="1592654288916" duration="1010000" />
       <workItem from="1592662186011" duration="260000" />
-      <workItem from="1592662468266" duration="5992000" />
+      <workItem from="1592662468266" duration="10239000" />
     </task>
     <task id="LOCAL-00001" summary="Primer commit">
       <created>1592663107745</created>
@@ -145,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592663615589</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="htaccess">
+      <created>1592668528528</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1592668528528</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,7 +168,8 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="Primer commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Primer commit" />
+    <MESSAGE value="htaccess" />
+    <option name="LAST_COMMIT_MESSAGE" value="htaccess" />
   </component>
   <component name="WindowStateProjectService">
     <state x="452" y="90" key="#Inspections" timestamp="1592666403507">
@@ -171,18 +184,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="163" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.-3.1920.1040@0.0.1920.1040" timestamp="1592664767538" />
-    <state x="627" y="213" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1592667960155">
+    <state x="627" y="213" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1592672695386">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="627" y="213" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/1920.-3.1920.1040@0.0.1920.1040" timestamp="1592667960155" />
+    <state x="627" y="213" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/1920.-3.1920.1040@0.0.1920.1040" timestamp="1592672695386" />
     <state x="608" y="299" width="703" height="505" key="#com.jetbrains.php.debug.validation.PhpWebServerValidationDialog#" timestamp="1592664763769">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="608" y="299" width="703" height="505" key="#com.jetbrains.php.debug.validation.PhpWebServerValidationDialog#/0.0.1920.1040/1920.-3.1920.1040@0.0.1920.1040" timestamp="1592664763769" />
-    <state x="508" y="38" key="CommitChangelistDialog2" timestamp="1592663614895">
+    <state x="508" y="38" key="CommitChangelistDialog2" timestamp="1592668527580">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="508" y="38" key="CommitChangelistDialog2/0.0.1920.1040/1920.-3.1920.1040@0.0.1920.1040" timestamp="1592663614895" />
+    <state x="508" y="38" key="CommitChangelistDialog2/0.0.1920.1040/1920.-3.1920.1040@0.0.1920.1040" timestamp="1592668527580" />
     <state x="690" y="196" key="FileChooserDialogImpl" timestamp="1592663023937">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -243,14 +256,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1865" height="207" key="GridCell.Tab.2.right/0.0.1920.1040/1920.-3.1920.1040@0.0.1920.1040" timestamp="1592668431638" />
-    <state x="744" y="289" key="NewPhpClassDialog" timestamp="1592666700949">
+    <state x="744" y="289" key="NewPhpClassDialog" timestamp="1592674140458">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="744" y="289" key="NewPhpClassDialog/0.0.1920.1040/1920.-3.1920.1040@0.0.1920.1040" timestamp="1592666700949" />
-    <state x="468" y="13" key="SettingsEditor" timestamp="1592667821334">
+    <state x="744" y="289" key="NewPhpClassDialog/0.0.1920.1040/1920.-3.1920.1040@0.0.1920.1040" timestamp="1592674140458" />
+    <state x="468" y="13" key="SettingsEditor" timestamp="1592672325823">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="468" y="13" key="SettingsEditor/0.0.1920.1040/1920.-3.1920.1040@0.0.1920.1040" timestamp="1592667821334" />
+    <state x="468" y="13" key="SettingsEditor/0.0.1920.1040/1920.-3.1920.1040@0.0.1920.1040" timestamp="1592672325823" />
     <state x="452" y="183" key="Vcs.Push.Dialog.v2" timestamp="1592663638632">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -271,11 +284,6 @@
           <url>file://$PROJECT_DIR$/App/Controladores/HomeController.php</url>
           <line>33</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/App/App.php</url>
-          <line>59</line>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
